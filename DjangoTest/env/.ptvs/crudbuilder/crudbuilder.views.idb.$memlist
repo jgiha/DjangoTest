@@ -1,0 +1,17 @@
+CrudBuilderMixin
+reverse_lazy
+InlineFormsetViewMixin
+BaseBuilder
+DetailView
+ViewBuilder
+model_class_form
+BaseDetailViewMixin
+modelform_factory
+plural
+BaseListViewMixin
+CreateUpdateViewMixin
+SingleTableView
+TableBuilder
+UpdateView
+CreateView
+DeleteView

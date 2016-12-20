@@ -1,0 +1,6 @@
+Signal
+post_create_signal
+post_inline_create_signal
+crudbuilder_signals
+post_update_signal
+post_inline_update_signal
