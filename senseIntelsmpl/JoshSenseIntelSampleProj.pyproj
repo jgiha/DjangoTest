@@ -51,6 +51,7 @@
   <ItemGroup>
     <Folder Include="app\" />
     <Folder Include="app\migrations\" />
+    <Folder Include="app\fixtures\" />
     <Folder Include="app\static\" />
     <Folder Include="app\static\app\" />
     <Folder Include="app\static\app\content\" />
@@ -61,6 +62,9 @@
     <Folder Include="JoshSenseIntelSampleProj\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\fixtures\sampledata.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
