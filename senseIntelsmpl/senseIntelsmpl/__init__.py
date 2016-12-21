@@ -1,3 +1,3 @@
 """
-Package for JoshSenseIntelSampleProj.
+Package for senseIntelsmpl.
 """

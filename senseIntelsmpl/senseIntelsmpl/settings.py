@@ -55,7 +55,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'DjangoTest.urls'
+ROOT_URLCONF = 'senseIntelsmpl.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'JoshSenseIntelSampleProj.wsgi.application'
+WSGI_APPLICATION = 'senseIntelsmpl.wsgi.application'
 
 
 # Database
