@@ -7,6 +7,12 @@ from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
 
+from crudbuilder.views import ViewBuilder
+from app.crud import ModuleCrud
+
+builder = ViewBuilder('app', 'module', ModuleCrud)
+builder.generate_crud()
+
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
