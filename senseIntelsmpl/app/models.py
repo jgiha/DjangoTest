@@ -7,51 +7,51 @@ from django.db import models
 
 
 class accel(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class accelRaw(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class compassRaw(models.Model):
-    x = models.DecimalField(max_digits = 50)
-    y = models.DecimalField(max_digits = 50)
-    z = models.DecimalField(max_digits = 50)
+    x = models.IntegerField()
+    y = models.IntegerField()
+    z = models.IntegerField()
 
 class gyro(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class gyroRaw(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class orient(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class orientRaw(models.Model):
-    pitch = models.DecimalField(max_digits = 50)
-    roll = models.DecimalField(max_digits = 50)
-    yaw = models.DecimalField(max_digits = 50)
+    pitch = models.IntegerField()
+    roll = models.IntegerField()
+    yaw = models.IntegerField()
 
 class SensorReading(models.Model):
 
     #Django creates a default id field with every model manual primary key creation is unnecessary 
             #sensorReadingID = models.AutoField(primary_key=True)
        
-    humidity = models.DecimalField(max_digits = 50)
-    temp = models.DecimalField(max_digits = 50)
-    pressure = models.DecimalField(max_digits = 50)
+    humidity = models.IntegerField()
+    temp = models.IntegerField()
+    pressure = models.IntegerField()
     orient = orient
     orientRaw = orientRaw
-    compass = models.DecimalField(max_digits = 50)
+    compass = models.IntegerField()
     compassRaw = compassRaw
     gyro =gyro
     gyroRaw = gyroRaw
